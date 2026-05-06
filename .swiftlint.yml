@@ -1,0 +1,33 @@
+# Tier 2 — swift-foundations layer-anchor SwiftLint configuration.
+#
+# Intentionally empty per [CI-004a] — the layer-wrapper "thin pass-through"
+# pattern. Foundations-layer-specific lint rules (e.g., stricter
+# Foundation-import patterns for `* Foundation Integration` subtargets,
+# multi-vendor matrix considerations, platform-conditional permissions
+# specific to L3 conventions) accumulate here as L3 invariants are
+# identified. At v0 the layer-anchor exists structurally but carries no
+# rules of its own; consumers inherit Tier 1 ecosystem-wide rules
+# transparently through the parent_config chain below.
+#
+# Inherits from the swift-institute Tier 1 ecosystem-wide canonical:
+#
+#   parent_config: https://raw.githubusercontent.com/swift-institute/.github/main/.swiftlint.yml
+#
+# Per-sub-package .swiftlint.yml files in swift-foundations/swift-*/ (and
+# the L3 vendor sub-orgs swift-linux-foundation, swift-microsoft) inherit
+# from THIS file via:
+#
+#   parent_config: https://raw.githubusercontent.com/swift-foundations/.github/main/.swiftlint.yml
+#
+# Per [CI-004b], L3 vendor sub-org repos route through this layer-anchor —
+# there are no per-vendor .swiftlint.yml files at the sub-org `.github`
+# level (same architectural reasoning that gates per-vendor wrapper
+# workflows under the workflow_call 4-level limit applies in spirit to
+# lint config-inheritance hops: keep the chain short until layer-specific
+# rules emerge that justify another tier).
+#
+# Provenance: swift-institute/Research/ci-uniformity-audit.md v1.0.0 §D4
+# (D4 finalization — closes the UNINTENTIONAL-DRIFT axis for L3
+# .swiftlint.yml absence vs L1 baseline).
+
+parent_config: https://raw.githubusercontent.com/swift-institute/.github/main/.swiftlint.yml
