@@ -1,0 +1,13 @@
+# swift-foundations org-level metadata.
+#
+# Schema mirrors per-repo .github/metadata.yaml. Read by social-preview.sh.
+
+description: "Composed building blocks for Swift."
+homepage: "https://swift-institute.org"
+
+socialPreview:
+  accent:
+    from: "#EFC868"   # gold gradient top
+    to: "#C99932"     # gold gradient bottom
+    text: "#C99932"   # caption ink
+  caption: "FOUNDATIONS"
