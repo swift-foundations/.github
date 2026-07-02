@@ -11,3 +11,5 @@ socialPreview:
     to: "#C99932"     # gold gradient bottom
     text: "#C99932"   # caption ink
   caption: "FOUNDATIONS"
+readme:
+  family: G

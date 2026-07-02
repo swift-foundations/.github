@@ -4,3 +4,5 @@
 # REVIEW BEFORE MERGE: replace any TODO entries with real values.
 description: "Organization-level community-health defaults for swift-foundations."
 topics: []
+readme:
+  family: G
