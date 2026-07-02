@@ -1,6 +1,6 @@
 # Swift Foundations
 
-Composed Swift building blocks for production systems — HTTP servers and clients, markup and serialization, crypto and authentication, database connectivity, observability, rendering, language tooling, and platform integration. 137 packages.
+Composed Swift building blocks for production systems — HTTP servers and clients, markup and serialization, crypto and authentication, database connectivity, observability, rendering, language tooling, and platform integration.
 
 ## Part of Swift Institute
 
@@ -8,7 +8,7 @@ swift-foundations is the Layer 3 organization within the [Swift Institute](https
 
 ## Packages
 
-137 packages organized by capability domain. Each repo links directly:
+Packages are organized by capability domain. Each repo links directly:
 
 ### HTTP and web
 
@@ -62,7 +62,7 @@ swift-foundations is the Layer 3 organization within the [Swift Institute](https
 
 [swift-strings](https://github.com/swift-foundations/swift-strings) · [swift-paths](https://github.com/swift-foundations/swift-paths) · [swift-numerics](https://github.com/swift-foundations/swift-numerics) · [swift-decimals](https://github.com/swift-foundations/swift-decimals) · [swift-systems](https://github.com/swift-foundations/swift-systems) · [swift-witnesses](https://github.com/swift-foundations/swift-witnesses) · [swift-defunctionalize](https://github.com/swift-foundations/swift-defunctionalize) · [swift-dual](https://github.com/swift-foundations/swift-dual) · [swift-copy-on-write](https://github.com/swift-foundations/swift-copy-on-write) · [swift-least-recently-used](https://github.com/swift-foundations/swift-least-recently-used) · [swift-time-to-live](https://github.com/swift-foundations/swift-time-to-live) · [swift-process](https://github.com/swift-foundations/swift-process) · [swift-console](https://github.com/swift-foundations/swift-console) · [swift-command-line](https://github.com/swift-foundations/swift-command-line) · [swift-color](https://github.com/swift-foundations/swift-color) · [swift-ascii](https://github.com/swift-foundations/swift-ascii) · [swift-dependencies](https://github.com/swift-foundations/swift-dependencies) · [swift-dependency-analysis](https://github.com/swift-foundations/swift-dependency-analysis) · [swift-tests](https://github.com/swift-foundations/swift-tests) · [swift-testing](https://github.com/swift-foundations/swift-testing) · [swift-application-binary-interface](https://github.com/swift-foundations/swift-application-binary-interface) · [swift-type](https://github.com/swift-foundations/swift-type) · [swift-module](https://github.com/swift-foundations/swift-module) · [swift-kernel](https://github.com/swift-foundations/swift-kernel) · [swift-memory](https://github.com/swift-foundations/swift-memory) · [swift-random](https://github.com/swift-foundations/swift-random)
 
-All 137 packages are public.
+Packages are released repository by repository; a link above may 404 until that package's release lands.
 
 ## How to use a package
 
