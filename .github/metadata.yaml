@@ -3,6 +3,9 @@
 # Detected class: org-github
 # REVIEW BEFORE MERGE: replace any TODO entries with real values.
 description: "Organization-level community-health defaults for swift-foundations."
-topics: []
+# No topics per [GH-REPO-080]; org meta-repos are exempt from [GH-REPO-023]'s
+# 2-10 range. Key OMITTED rather than []: sync reads `.topics // []` so both
+# clear all topics, but an empty list trips the schema's minItems, which cannot
+# express the exemption.
 readme:
   family: G
