@@ -9,7 +9,7 @@ socialPreview:
   accent:
     from: "#EFC868"   # gold gradient top
     to: "#C99932"     # gold gradient bottom
-    text: "#C99932"   # caption ink
+    text: "#8A6410"   # caption ink — 5.08:1 on #FBF8F6 (WCAG AA large-text needs 3:1)
   caption: "FOUNDATIONS"
 readme:
   family: G
