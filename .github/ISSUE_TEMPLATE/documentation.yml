@@ -1,6 +1,5 @@
 name: Documentation request
 description: Report missing, inaccurate, or unclear documentation.
-title: ""
 type: task
 body:
   - type: textarea

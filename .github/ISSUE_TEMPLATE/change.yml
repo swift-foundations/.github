@@ -1,6 +1,5 @@
 name: Change request
 description: Propose a concrete change owned by this repository.
-title: ""
 type: feature
 body:
   - type: markdown
