@@ -25,11 +25,15 @@ name: Swift CI (foundations layer)
 # ([CI-109] — their hop into this wrapper is cross-org and inherit
 # would deliver nothing).
 #
-# Sub-org repos in swift-linux-foundation and swift-microsoft ALSO route
-# through THIS wrapper per [CI-004b] (per-vendor sub-org wrappers blocked
-# by GitHub Actions workflow_call 4-level depth limit; sub-org repos
-# route through their parent layer wrapper until the limit relaxes or
-# the universal is refactored to inline its advisory linters as steps).
+# This layer currently has no live sub-org callers. swift-linux-foundation
+# and swift-microsoft are vendor sub-orgs of the STANDARDS layer, not this
+# one: their live callers (swift-linux-standard, swift-windows-32) route
+# through swift-standards/.github/.github/workflows/swift-ci.yml per
+# [CI-004b] (per-vendor sub-org wrappers blocked by GitHub Actions
+# workflow_call 4-level depth limit; sub-org repos route through their
+# parent layer wrapper until the limit relaxes or the universal is
+# refactored to inline its advisory linters as steps). Verified against
+# both repos' live .github/workflows/ci.yml on 2026-07-30.
 #
 # Provenance: swift-institute/Research/ci-cd-cross-ecosystem-reuse.md
 # v1.1.1 (2026-05-06, Tier 2 RECOMMENDATION).
