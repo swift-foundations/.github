@@ -117,6 +117,13 @@ jobs:
   # protection on swift-foundations consumer repos. Mirrors the universal
   # swift-ci.yml's ci-ok job; here, the only need is `matrix` (which itself
   # reflects the universal workflow's success aggregate).
+  #
+  # TEMPORARY, compatibility-only (CI/CD refactor programme Task 1-04,
+  # swift-institute/.github#276): this aggregate exists solely to keep
+  # producing the `ci / ci-ok` required-status-check name consumer
+  # rulesets already reference, until Phase 3 converges required contexts
+  # to `ci / matrix / ci-ok` and deletes it. No new logic belongs here.
+  # Deletion tracked at swift-foundations/.github#7.
   ci-ok:
     if: ${{ always() && !github.event.repository.private }}
     needs:
